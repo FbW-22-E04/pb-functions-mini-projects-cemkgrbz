@@ -37,14 +37,14 @@ console.log(calculateSupply(48,1))
 // The Geometrizer
 
 function calcCircumfrence(x) {
-    const formulaCirc = (2*Math.PI) * x;
+    const formulaCirc = 2 * Math.PI * x;
     return `The circumference is ${formulaCirc.toFixed(2)}.`;
 }
 
 console.log(calcCircumfrence(4))
 
 function calcArea(x) {
-    const formulaArea = (2*Math.PI)*(x**2)
+    const formulaArea = Math.PI*(x**2)
     return `The area is ${formulaArea.toFixed(2)}.`;
 } 
 
